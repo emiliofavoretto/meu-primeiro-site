@@ -1,17 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 /* reset do CSS */
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
-h1,p {
+
+header {
+    background-color: rgb(32, 40, 77);
+    color: rgb(247, 228, 61);
+    padding: 30px;
     text-align: center;
 }
 
-header {
-    background-color: rgb(171, 255, 62);
-    color: rgb(0, 0, 0);
-    padding: 20px;
-    
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Playfair Display
 }
 
+main {
+    background-color: rgb(176, 197, 216);
+    flex: 1;
+    padding: 48px 38px;
+}
+
+#titulo-sobre-mim {
+    font-size: 30px;
+    border-bottom: 3px solid rgb(32, 40, 77); 
+}
+
+.texto-sobre-mim {
+    font-size: 20px;
+}
+
+about-section {
+    display: block;
+    background-color: aliceblue;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+}
